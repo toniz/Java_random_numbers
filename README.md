@@ -1,5 +1,4 @@
-# Java_random_numbers
-Get random numbers with given sum, count and min value.  
+# Get random numbers with given sum, count and min value.  
 ---
 指定数组个数, 总和以及最小值, 获取一组随机数.
 
