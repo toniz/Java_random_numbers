@@ -50,6 +50,8 @@ class GFG {
     }
     
     public static void main (String[] args) {
+        // Precision 0.1 : result[1.8,2.2,5.4,7.9,8.9,12.8]
+        // Precision 0.001 : result[1.553,3.510,5.466,6.569,9.817,12.085]
         double sum[] = getRandDistArray(6, 39, 0.0001, 0.1);
         Arrays.sort(sum);
         for (int i = 0; i < sum.length; i++)
